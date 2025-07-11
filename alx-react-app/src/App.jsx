@@ -2,6 +2,8 @@ import WelcomeMessage from './components/WelcomeMessage';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
+import UserProfile from './components/UserProfile';
+
 
 // Vite starter imports — not needed for current ALX tasks
 // import { useState } from "react";
@@ -22,6 +24,13 @@ function App() {
     </>
   );
 }
+
+<UserProfile 
+  name="Alice" 
+  age="25" 
+  bio="Loves Hiking and photography" 
+/>
+
 
 export default App;
 
