@@ -8,16 +8,10 @@ function MainContent() {
         color: "#444",
       }}
     >
-      <h2 style={{ textAlign: "center", marginBottom: "15px" }}>
-        Explore These Cities
-      </h2>
-      <ul
-        style={{ listStyleType: "square", lineHeight: "1.8", fontSize: "18px" }}
-      >
-        <li>Tokyo</li>
-        <li>Paris</li>
-        <li>New York</li>
-      </ul>
+      <h2 style={{ textAlign: "center" }}>Explore These Cities</h2>
+      <p style={{ fontSize: "18px" }}>
+        I love to visit New York, Paris, and Tokyo.
+      </p>
     </main>
   );
 }
