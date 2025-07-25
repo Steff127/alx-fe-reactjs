@@ -1,7 +1,15 @@
 function Footer() {
   return (
-    <footer>
-      <p>© 2023 City Lovers</p>
+    <footer
+      style={{
+        backgroundColor: "#003366",
+        color: "#ffffff",
+        textAlign: "center",
+        padding: "12px",
+        marginTop: "30px",
+      }}
+    >
+      <p>&copy; 2025 Stephen Ojo — All rights reserved.</p>
     </footer>
   );
 }
